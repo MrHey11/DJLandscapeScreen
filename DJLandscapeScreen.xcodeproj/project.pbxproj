@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22ED67E61EF1109D000EA760 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED67E51EF1109D000EA760 /* main.m */; };
+		22ED67E91EF1109D000EA760 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED67E81EF1109D000EA760 /* AppDelegate.m */; };
+		22ED67EC1EF1109D000EA760 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED67EB1EF1109D000EA760 /* ViewController.m */; };
+		22ED67EF1EF1109D000EA760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ED67ED1EF1109D000EA760 /* Main.storyboard */; };
+		22ED67F11EF1109D000EA760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22ED67F01EF1109D000EA760 /* Assets.xcassets */; };
+		22ED67F41EF1109D000EA760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22ED67F21EF1109D000EA760 /* LaunchScreen.storyboard */; };
+		22ED67FF1EF1109D000EA760 /* DJLandscapeScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED67FE1EF1109D000EA760 /* DJLandscapeScreenTests.m */; };
+		22ED680A1EF1109D000EA760 /* DJLandscapeScreenUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED68091EF1109D000EA760 /* DJLandscapeScreenUITests.m */; };
+		22ED68191EF1121F000EA760 /* MynavitationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED68181EF1121F000EA760 /* MynavitationController.m */; };
+		22ED681C1EF112AC000EA760 /* LandScapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED681B1EF112AC000EA760 /* LandScapeViewController.m */; };
+		22ED681F1EF1139D000EA760 /* MovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED681E1EF1139D000EA760 /* MovieView.m */; };
+		22ED68211EF114B0000EA760 /* lanscape.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22ED68201EF114B0000EA760 /* lanscape.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22ED67FB1EF1109D000EA760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22ED67D91EF1109D000EA760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22ED67E01EF1109D000EA760;
+			remoteInfo = DJLandscapeScreen;
+		};
+		22ED68061EF1109D000EA760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22ED67D91EF1109D000EA760 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22ED67E01EF1109D000EA760;
+			remoteInfo = DJLandscapeScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22ED67E11EF1109D000EA760 /* DJLandscapeScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJLandscapeScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ED67E51EF1109D000EA760 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22ED67E71EF1109D000EA760 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22ED67E81EF1109D000EA760 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22ED67EA1EF1109D000EA760 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22ED67EB1EF1109D000EA760 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22ED67EE1EF1109D000EA760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22ED67F01EF1109D000EA760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22ED67F31EF1109D000EA760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22ED67F51EF1109D000EA760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ED67FA1EF1109D000EA760 /* DJLandscapeScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJLandscapeScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ED67FE1EF1109D000EA760 /* DJLandscapeScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLandscapeScreenTests.m; sourceTree = "<group>"; };
+		22ED68001EF1109D000EA760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ED68051EF1109D000EA760 /* DJLandscapeScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJLandscapeScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22ED68091EF1109D000EA760 /* DJLandscapeScreenUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJLandscapeScreenUITests.m; sourceTree = "<group>"; };
+		22ED680B1EF1109D000EA760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22ED68171EF1121F000EA760 /* MynavitationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MynavitationController.h; sourceTree = "<group>"; };
+		22ED68181EF1121F000EA760 /* MynavitationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MynavitationController.m; sourceTree = "<group>"; };
+		22ED681A1EF112AC000EA760 /* LandScapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandScapeViewController.h; sourceTree = "<group>"; };
+		22ED681B1EF112AC000EA760 /* LandScapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandScapeViewController.m; sourceTree = "<group>"; };
+		22ED681D1EF1139D000EA760 /* MovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieView.h; sourceTree = "<group>"; };
+		22ED681E1EF1139D000EA760 /* MovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieView.m; sourceTree = "<group>"; };
+		22ED68201EF114B0000EA760 /* lanscape.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lanscape.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22ED67DE1EF1109D000EA760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ED67F71EF1109D000EA760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ED68021EF1109D000EA760 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22ED67D81EF1109D000EA760 = {
+			isa = PBXGroup;
+			children = (
+				22ED67E31EF1109D000EA760 /* DJLandscapeScreen */,
+				22ED67FD1EF1109D000EA760 /* DJLandscapeScreenTests */,
+				22ED68081EF1109D000EA760 /* DJLandscapeScreenUITests */,
+				22ED67E21EF1109D000EA760 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22ED67E21EF1109D000EA760 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22ED67E11EF1109D000EA760 /* DJLandscapeScreen.app */,
+				22ED67FA1EF1109D000EA760 /* DJLandscapeScreenTests.xctest */,
+				22ED68051EF1109D000EA760 /* DJLandscapeScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22ED67E31EF1109D000EA760 /* DJLandscapeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				22ED68201EF114B0000EA760 /* lanscape.jpg */,
+				22ED67E71EF1109D000EA760 /* AppDelegate.h */,
+				22ED67E81EF1109D000EA760 /* AppDelegate.m */,
+				22ED68171EF1121F000EA760 /* MynavitationController.h */,
+				22ED68181EF1121F000EA760 /* MynavitationController.m */,
+				22ED681A1EF112AC000EA760 /* LandScapeViewController.h */,
+				22ED681B1EF112AC000EA760 /* LandScapeViewController.m */,
+				22ED681D1EF1139D000EA760 /* MovieView.h */,
+				22ED681E1EF1139D000EA760 /* MovieView.m */,
+				22ED67EA1EF1109D000EA760 /* ViewController.h */,
+				22ED67EB1EF1109D000EA760 /* ViewController.m */,
+				22ED67ED1EF1109D000EA760 /* Main.storyboard */,
+				22ED67F01EF1109D000EA760 /* Assets.xcassets */,
+				22ED67F21EF1109D000EA760 /* LaunchScreen.storyboard */,
+				22ED67F51EF1109D000EA760 /* Info.plist */,
+				22ED67E41EF1109D000EA760 /* Supporting Files */,
+			);
+			path = DJLandscapeScreen;
+			sourceTree = "<group>";
+		};
+		22ED67E41EF1109D000EA760 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22ED67E51EF1109D000EA760 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22ED67FD1EF1109D000EA760 /* DJLandscapeScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				22ED67FE1EF1109D000EA760 /* DJLandscapeScreenTests.m */,
+				22ED68001EF1109D000EA760 /* Info.plist */,
+			);
+			path = DJLandscapeScreenTests;
+			sourceTree = "<group>";
+		};
+		22ED68081EF1109D000EA760 /* DJLandscapeScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22ED68091EF1109D000EA760 /* DJLandscapeScreenUITests.m */,
+				22ED680B1EF1109D000EA760 /* Info.plist */,
+			);
+			path = DJLandscapeScreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22ED67E01EF1109D000EA760 /* DJLandscapeScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ED680E1EF1109D000EA760 /* Build configuration list for PBXNativeTarget "DJLandscapeScreen" */;
+			buildPhases = (
+				22ED67DD1EF1109D000EA760 /* Sources */,
+				22ED67DE1EF1109D000EA760 /* Frameworks */,
+				22ED67DF1EF1109D000EA760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJLandscapeScreen;
+			productName = DJLandscapeScreen;
+			productReference = 22ED67E11EF1109D000EA760 /* DJLandscapeScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22ED67F91EF1109D000EA760 /* DJLandscapeScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ED68111EF1109D000EA760 /* Build configuration list for PBXNativeTarget "DJLandscapeScreenTests" */;
+			buildPhases = (
+				22ED67F61EF1109D000EA760 /* Sources */,
+				22ED67F71EF1109D000EA760 /* Frameworks */,
+				22ED67F81EF1109D000EA760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22ED67FC1EF1109D000EA760 /* PBXTargetDependency */,
+			);
+			name = DJLandscapeScreenTests;
+			productName = DJLandscapeScreenTests;
+			productReference = 22ED67FA1EF1109D000EA760 /* DJLandscapeScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22ED68041EF1109D000EA760 /* DJLandscapeScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22ED68141EF1109D000EA760 /* Build configuration list for PBXNativeTarget "DJLandscapeScreenUITests" */;
+			buildPhases = (
+				22ED68011EF1109D000EA760 /* Sources */,
+				22ED68021EF1109D000EA760 /* Frameworks */,
+				22ED68031EF1109D000EA760 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22ED68071EF1109D000EA760 /* PBXTargetDependency */,
+			);
+			name = DJLandscapeScreenUITests;
+			productName = DJLandscapeScreenUITests;
+			productReference = 22ED68051EF1109D000EA760 /* DJLandscapeScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22ED67D91EF1109D000EA760 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "丁健";
+				TargetAttributes = {
+					22ED67E01EF1109D000EA760 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 564G5J7XYY;
+						ProvisioningStyle = Automatic;
+					};
+					22ED67F91EF1109D000EA760 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 564G5J7XYY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22ED67E01EF1109D000EA760;
+					};
+					22ED68041EF1109D000EA760 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 564G5J7XYY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22ED67E01EF1109D000EA760;
+					};
+				};
+			};
+			buildConfigurationList = 22ED67DC1EF1109D000EA760 /* Build configuration list for PBXProject "DJLandscapeScreen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22ED67D81EF1109D000EA760;
+			productRefGroup = 22ED67E21EF1109D000EA760 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22ED67E01EF1109D000EA760 /* DJLandscapeScreen */,
+				22ED67F91EF1109D000EA760 /* DJLandscapeScreenTests */,
+				22ED68041EF1109D000EA760 /* DJLandscapeScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22ED67DF1EF1109D000EA760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ED67F41EF1109D000EA760 /* LaunchScreen.storyboard in Resources */,
+				22ED67F11EF1109D000EA760 /* Assets.xcassets in Resources */,
+				22ED68211EF114B0000EA760 /* lanscape.jpg in Resources */,
+				22ED67EF1EF1109D000EA760 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ED67F81EF1109D000EA760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ED68031EF1109D000EA760 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22ED67DD1EF1109D000EA760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ED67EC1EF1109D000EA760 /* ViewController.m in Sources */,
+				22ED67E91EF1109D000EA760 /* AppDelegate.m in Sources */,
+				22ED68191EF1121F000EA760 /* MynavitationController.m in Sources */,
+				22ED681C1EF112AC000EA760 /* LandScapeViewController.m in Sources */,
+				22ED67E61EF1109D000EA760 /* main.m in Sources */,
+				22ED681F1EF1139D000EA760 /* MovieView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ED67F61EF1109D000EA760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ED67FF1EF1109D000EA760 /* DJLandscapeScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22ED68011EF1109D000EA760 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22ED680A1EF1109D000EA760 /* DJLandscapeScreenUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22ED67FC1EF1109D000EA760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22ED67E01EF1109D000EA760 /* DJLandscapeScreen */;
+			targetProxy = 22ED67FB1EF1109D000EA760 /* PBXContainerItemProxy */;
+		};
+		22ED68071EF1109D000EA760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22ED67E01EF1109D000EA760 /* DJLandscapeScreen */;
+			targetProxy = 22ED68061EF1109D000EA760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22ED67ED1EF1109D000EA760 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ED67EE1EF1109D000EA760 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22ED67F21EF1109D000EA760 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22ED67F31EF1109D000EA760 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22ED680C1EF1109D000EA760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22ED680D1EF1109D000EA760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22ED680F1EF1109D000EA760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 564G5J7XYY;
+				INFOPLIST_FILE = DJLandscapeScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dj.DJLandscapeScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22ED68101EF1109D000EA760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 564G5J7XYY;
+				INFOPLIST_FILE = DJLandscapeScreen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dj.DJLandscapeScreen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		22ED68121EF1109D000EA760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 564G5J7XYY;
+				INFOPLIST_FILE = DJLandscapeScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dj.DJLandscapeScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJLandscapeScreen.app/DJLandscapeScreen";
+			};
+			name = Debug;
+		};
+		22ED68131EF1109D000EA760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 564G5J7XYY;
+				INFOPLIST_FILE = DJLandscapeScreenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dj.DJLandscapeScreenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJLandscapeScreen.app/DJLandscapeScreen";
+			};
+			name = Release;
+		};
+		22ED68151EF1109D000EA760 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 564G5J7XYY;
+				INFOPLIST_FILE = DJLandscapeScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dj.DJLandscapeScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJLandscapeScreen;
+			};
+			name = Debug;
+		};
+		22ED68161EF1109D000EA760 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 564G5J7XYY;
+				INFOPLIST_FILE = DJLandscapeScreenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dj.DJLandscapeScreenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DJLandscapeScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22ED67DC1EF1109D000EA760 /* Build configuration list for PBXProject "DJLandscapeScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ED680C1EF1109D000EA760 /* Debug */,
+				22ED680D1EF1109D000EA760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22ED680E1EF1109D000EA760 /* Build configuration list for PBXNativeTarget "DJLandscapeScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ED680F1EF1109D000EA760 /* Debug */,
+				22ED68101EF1109D000EA760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22ED68111EF1109D000EA760 /* Build configuration list for PBXNativeTarget "DJLandscapeScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ED68121EF1109D000EA760 /* Debug */,
+				22ED68131EF1109D000EA760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22ED68141EF1109D000EA760 /* Build configuration list for PBXNativeTarget "DJLandscapeScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22ED68151EF1109D000EA760 /* Debug */,
+				22ED68161EF1109D000EA760 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22ED67D91EF1109D000EA760 /* Project object */;
+}
